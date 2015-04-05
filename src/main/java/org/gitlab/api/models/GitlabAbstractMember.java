@@ -2,7 +2,7 @@ package org.gitlab.api.models;
 
 import org.codehaus.jackson.annotate.JsonProperty;
 
-public abstract class GitlabAbstractMember extends GitlabUser {
+public abstract class GitlabAbstractMember extends GitlabResponseUser {
 
     public static final String URL = "/members";
 
